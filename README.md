@@ -19,12 +19,17 @@ This project simulates a simple board game on an 8x8 grid using object-oriented 
 ## Features
 
 - **Piece Classes**: Different classes for pieces that move in various directions.
-      - "Fast" pieces can move by any number of steps.
-      - "Flexible" pieces can move up, down, left, or right.
-      - "Slow" pieces can move only 1 step at a time.
-      - "Non-Flexible" pieces are the default, and can only move move left or right.
+    - **"Fast" pieces** can move by any number of steps.
+    - **"Flexible" pieces** can move up, down, left, or right.
+    - **"Slow" pieces** can move only 1 step at a time.
+    - **"Non-Flexible" pieces** are the default, and can only move left or right.
+
   These tags can be combined and interchanged to create 4 types of pieces:
-      - Slow, Fast, Slow-Flexible, Fast-Flexible
+    - Slow
+    - Fast
+    - Slow-Flexible
+    - Fast-Flexible
+
 - **Game Board**: An 8x8 grid that tracks the position and type of each piece.
 - **User Interaction**: Accepts commands to create pieces, move pieces, display the board, and more.
 - **Validation**: Checks if moves are valid and if positions on the board are occupied.
